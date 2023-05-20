@@ -5,8 +5,6 @@ target/
 !**/src/test/**/target/
 
 ### STS ###
-/.secret.properties
-.secret.properties
 .apt_generated
 .classpath
 .factorypath
@@ -33,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+
+src/main/resources/secret.properties
