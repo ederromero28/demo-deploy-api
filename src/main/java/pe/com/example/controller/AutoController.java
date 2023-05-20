@@ -21,7 +21,7 @@ import pe.com.example.service.AutoService;
 
 @RestController
 @RequestMapping("/autos")
-@CrossOrigin(origins = "https://undisturbed-art-production.up.railway.app/")
+@CrossOrigin("*")
 public class AutoController {
 
 	private AutoService autoService;
