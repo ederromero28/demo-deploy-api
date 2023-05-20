@@ -5,6 +5,8 @@ target/
 !**/src/test/**/target/
 
 ### STS ###
+/.secret.properties
+.secret.properties
 .apt_generated
 .classpath
 .factorypath
@@ -18,7 +20,6 @@ target/
 *.iws
 *.iml
 *.ipr
-*.secret.properties
 
 ### NetBeans ###
 /nbproject/private/
